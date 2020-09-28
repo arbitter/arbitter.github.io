@@ -118,6 +118,7 @@ textarea{
 	cursor: pointer; 
 	background-color: #00853e;
 	z-index: 0;
+	display: fixed; 
 }
 
 #learn-more {
