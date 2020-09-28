@@ -125,6 +125,7 @@ textarea{
 
 #about-me {
 	position: relative; 
+	display: block;
 	text-align: left;
 	top: 50px;
 	left: 5%;
@@ -132,18 +133,28 @@ textarea{
 }
 
 #skill-boxes {
-	text-align: center; 
-	position: relative; 
+	position: static; 
 	display: block; 
+	border: 1px solid black;
+	//background-color: white; 
+	background-color: #f2f2f2;
+	text-align: center; 
+	float: left; 
 	top: 0; 
+	width: 50%;
+	padding: 0px 0px 20px 0px; 
+	margin: 10px;
 }
 
 #skill-box {
-	display: inline-block; 
+	position: relative; 
+	display: inline-grid; 
 	border: 1px solid black; 
 	background-color: #00853e; 
 	color: white; 
 	text-align: left; 
+	top: 10px;
+	width: 30%;
 	padding: 5px 10px; 
 	margin: 0px 10px; 
 }
@@ -157,10 +168,35 @@ textarea{
 	.navButton {
 		font-size: 1.5rem; 
 	}
+
+	#skill-box-header {
+		font-size: 1.25rem;
+	}
+
+	#skill-box {
+		font-size: 1rem;
+	}
 }
 
 @media only screen and (max-width: 720px){
 	.navButton {
 		font-size: 1rem; 
+	}
+}
+
+@media only screen and (max-width: 1900px){
+	#skill-boxes{
+		width: 30%;
+		padding: 0px 5px 20px 0px;
+	}
+
+	#skill-box-header {
+		font-size: 1.25rem;
+	}
+
+	#skill-box {
+		font-size: .75rem;
+		display: block;
+		width: 95%;
 	}
 }
