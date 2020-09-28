@@ -89,6 +89,7 @@ textarea{
 	border-bottom: 4px solid black;
 	border-right: 1px solid black;
 	padding: 10px 20px; 
+	float: left; 
 	width: 25%;
 	font-size: 2rem; 
 	color: white; 
@@ -114,26 +115,6 @@ textarea{
 	padding: 20px 30px;
 	cursor: pointer; 
 	position: relative; 
-}
-
-#homeButton {
-	float: left; 
-	//background: linear-gradient(-45deg, #00853e, #0d2d62);
-}
-
-#aboutButton {
-	float: left;
-	//background: linear-gradient(-45deg, #0d2d62, #00853e);
-}
-
-#gameButton {
-	float: left;
-	//background: linear-gradient(-45deg, #00853e, #0d2d62);
-}
-
-#softwareButton {
-	float: left; 
-	//background: linear-gradient(-45deg, #0d2d62, #00853e);
 }
 
 #learn-more {
@@ -170,4 +151,10 @@ textarea{
 #skill-box-header{
 	color: white; 
 	font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1072px){
+	.navButton {
+		font-size: 1.5rem; 
+	}
 }
