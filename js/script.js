@@ -9,7 +9,7 @@ let gameButton = document.getElementById("gameButton");
 let learnMore = document.getElementById("learn-more");
 
 //contact me link at the bottom right of the page. 
-let contactMe = document.getElementById("contact-me");
+let contactMeOverlay = document.getElementById("contact-me-overlay");
 
 //5 urls for each webpage. When clicking one of the navigation buttons go to these urls. 
 let homeUrl = "./index.html";
@@ -41,17 +41,5 @@ gameButton.onclick = () => {
 if(learnMore != null){
 	learnMore.onclick = () => {
 		location.href = aboutMeUrl; 
-	}
-}
-
-if(contactMe != null){
-	contactMe.onclick = () => {
-		location.href = contactUrl;
-	}
-}
-
-if(email != null){
-	email.onclick = () => {
-		window.open(emailUrl);
 	}
 }
