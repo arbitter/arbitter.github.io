@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.intro {
+	background-image: url("../images/collin-logo.jpeg");
+	background-repeat: no-repeat;
+}
+
+#education-background{
+	background: linear-gradient(-45deg, #00853e, #0d2d62);
+	color: white;
+	width: 100%;
+	height: 100%
+}
+
+#education-background h1 {
+	font-family: "Times New Roman";
+	font-size: 4rem;
+}
+
+#education-background h2 {
+	font-family: "Calibri";
+	font-size: 3rem;
+}
+
+#education-background h3 {
+	font-family: "Calibri"
+	font-size: 2rem;
+}
+
+#education-background p {
+	font-family: "Times New Roman";
+	font-size: 1rem;
+}

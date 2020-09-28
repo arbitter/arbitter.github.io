@@ -1,0 +1,173 @@
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: black;
+	cursor: context-menu;
+}
+
+body{
+	//background: linear-gradient(-45deg, #0d2d62, #00853e);
+	background: #F8F8FF;
+	//background: #00853e;
+	text-align: center; 
+}
+
+header {
+	position: sticky; 
+	top: 0;
+}
+
+footer {
+	position: fixed; 
+	float: right; 
+	bottom: 0;
+	right: 0;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+email {
+	color: #00853e;
+	font-weight: bold;
+	cursor: pointer; 
+}
+
+form {
+
+	border: 1px solid black;
+	background-color: #f2f2f2;
+	padding: 10px 10px;
+}
+
+label {
+	margin: 10px 10px;
+}
+
+input[type=text] {
+	width: 90%;
+	padding: 5px 5px; 
+	border-radius: 4px;
+	margin: 10px 10px;
+	display: block;
+}
+
+input[type=submit] {
+	color: white; 
+	background-color: #00853e;
+	padding: 5px 5px; 
+	margin: 5px 10px;
+	border-radius: 4px;
+	border: 1px solid black;
+}
+
+textarea{
+	padding: 5px 5px; 
+	margin: 10px 10px;
+	height: 300px;
+	width: 600px; 
+}
+
+.navButton {
+	background: #00853e;
+	border-bottom: 4px solid black;
+	border-right: 1px solid black;
+	padding: 10px 20px; 
+	width: 25%;
+	font-size: 2rem; 
+	color: white; 
+	display: block;    
+	cursor: pointer; 
+	z-index: 999; 
+}
+
+.navButton:hover{
+	font-weight: bold; 
+}
+
+.contact {
+	float: left; 
+	text-align: left; 
+	position: relative;
+	top: 50px; 
+	left: 10%;
+}
+
+#contact-me {
+	font-size: 1.5rem;
+	padding: 20px 30px;
+	cursor: pointer; 
+	position: relative; 
+}
+
+#homeButton {
+	float: left; 
+	//background: linear-gradient(-45deg, #00853e, #0d2d62);
+}
+
+#aboutButton {
+	float: left;
+	//background: linear-gradient(-45deg, #0d2d62, #00853e);
+}
+
+#gameButton {
+	float: left;
+	//background: linear-gradient(-45deg, #00853e, #0d2d62);
+}
+
+#softwareButton {
+	float: left; 
+	//background: linear-gradient(-45deg, #0d2d62, #00853e);
+}
+
+#learn-more {
+	color: #00853e;
+	font-weight: bold;
+	cursor: pointer; 
+}
+
+#about-me {
+	position: relative; 
+	text-align: left;
+	top: 50px;
+	left: 5%;
+	width: 90%;
+}
+
+#skill-boxes {
+	text-align: center; 
+	position: relative; 
+	display: block; 
+	top: 0; 
+}
+
+#skill-box {
+	display: inline-block; 
+	border: 1px solid black; 
+	background-color: #00853e; 
+	color: white; 
+	text-align: left; 
+	padding: 5px 10px; 
+	margin: 0px 10px; 
+}
+
+#skill-box-header{
+	color: white; 
+	font-size: 1.5rem;
+}
