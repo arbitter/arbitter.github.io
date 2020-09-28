@@ -187,8 +187,8 @@ textarea{
 
 @media only screen and (max-width: 1900px){
 	#skill-boxes{
-		width: 40%;
-		padding: 0px 5px 20px 0px;
+		width: 50%;
+		padding: 0px 0px 20px 0px;
 	}
 
 	#skill-box-header {
@@ -196,7 +196,7 @@ textarea{
 	}
 
 	#skill-box {
-		font-size: 1.31rem;
+		font-size: 1.50rem;
 		display: block;
 		width: 95%;
 	}
