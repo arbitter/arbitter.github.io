@@ -153,6 +153,7 @@ textarea{
 	background-color: #00853e; 
 	color: white; 
 	text-align: left; 
+	line-height: 150%;
 	top: 10px;
 	width: 30%;
 	padding: 5px 10px; 
@@ -186,16 +187,16 @@ textarea{
 
 @media only screen and (max-width: 1900px){
 	#skill-boxes{
-		width: 30%;
+		width: 40%;
 		padding: 0px 5px 20px 0px;
 	}
 
 	#skill-box-header {
-		font-size: 1.25rem;
+		font-size: 1.50rem;
 	}
 
 	#skill-box {
-		font-size: .75rem;
+		font-size: 1.25rem;
 		display: block;
 		width: 95%;
 	}
