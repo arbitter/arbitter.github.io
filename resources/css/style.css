@@ -130,6 +130,7 @@ textarea{
 	top: 50px;
 	left: 5%;
 	width: 90%;
+	z-index: -1;
 }
 
 #skill-boxes {
