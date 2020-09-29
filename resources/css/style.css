@@ -310,7 +310,7 @@ img {
 	}
 
 	#contact-me-overlay {
-		position: absolute;  
+		position: static;  
 		text-align: center; 
 		display: block;
 		width: 100%;
