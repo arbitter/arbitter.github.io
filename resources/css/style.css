@@ -137,6 +137,44 @@ textarea{
 	z-index: -1;
 }
 
+#home {
+	position: relative; 
+	//display: absolute;
+	text-align: left;
+	top: 50px;
+	left: 5%;
+	width: 70%;
+	z-index: -1;
+}
+
+#home p {
+	//display: inline-block;
+}
+
+img {
+	position: relative; 
+	float: right; 
+	width: 455px;
+	height: 550px;
+	bottom: 200px;
+	right: 100px;
+}
+
+#about-me-image {
+	width: 455px;
+	height: 550px;
+	bottom: 203px;
+	right: 4px;
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+#about-me p {
+	width: 50%;
+}
+
+
+
 #skill-boxes {
 	position: static; 
 	display: block; 
@@ -192,7 +230,7 @@ textarea{
 
 @media only screen and (max-width: 1900px){
 	#skill-boxes{
-		width: 50%;
+		width: 47%;
 		padding: 0px 0px 20px 0px;
 	}
 
@@ -205,4 +243,40 @@ textarea{
 		display: block;
 		width: 95%;
 	}
+
+	#home{
+		display: block;
+	}
+
+	img {
+	position: relative; 
+	top: 100px;
+	float: none; 
+	}
+
+	#about-me {
+		position: relative; 
+		text-align: center; 
+	}
+
+	#about-me h3 {
+		//text-align: left; 
+		float: none;
+	}
+
+	#about-me p {
+		text-align: left; 
+		width: 100%;
+	}
+
+	#about-me-image {
+	position: relative; 
+	width: 455px;
+	height: 550px;
+	top: 0px;
+	//bottom: 0px;
+	right: 4px;
+	padding: 0px 0px;
+	margin: 20px 0px;
+}
 }
