@@ -158,6 +158,7 @@ img {
 	height: 550px;
 	bottom: 200px;
 	right: 100px;
+	z-index: -1;
 }
 
 #about-me-image {
@@ -298,5 +299,20 @@ img {
 	right: 4px;
 	padding: 0px 0px;
 	margin: 20px 0px;
+	}
+
+	footer {
+		position: absolute;  
+		text-align: center; 
+		float: none; 
+		bottom: 0;
+		left: 0;
+	}
+
+	#contact-me-overlay {
+		position: absolute;  
+		text-align: center; 
+		display: block;
+		width: 100%;
 	}
 }
