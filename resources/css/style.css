@@ -231,6 +231,7 @@ img {
 		width: 47%;
 		padding: 0px 0px 20px 0px;
 		display: block;
+		bottom: 50px; 
 	}
 
 	#skill-box-header {
@@ -269,7 +270,7 @@ img {
 
 	img {
 	position: relative; 
-	top: 100px;
+	top: 0;
 	float: none; 
 	}
 
@@ -277,6 +278,7 @@ img {
 		position: relative; 
 		text-align: center; 
 		margin-bottom: 20px; 
+		top: 0px;
 	}
 
 	#about-me h3 {
@@ -289,17 +291,17 @@ img {
 	}
 
 	#about-me-image {
-	position: relative; 
+	position: static;    
 	width: 455px;
 	height: 550px;
-	top: 0px;
+	bottom: 20px; 
 	right: 4px;
 	padding: 0px 0px;
-	margin: 20px 0px;
+	margin: 0px 0px;
 	}
 
 	footer {
-		position: static;    
+		position: fixed;     
 		display: block; 
 		text-align: center; 
 		float: none; 
@@ -312,14 +314,12 @@ img {
 		text-align: center; 
 		display: inline-block; 
 		width: 100%; 
-		display: none; 
 	}
 
 	#about-contact-me-overlay {
 		position: relative; 
 		text-align: center; 
 		display: inline-block; 
-		width: 60%; 
-		display: none; 
+		width: 100%; 
 	}
 }
