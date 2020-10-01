@@ -133,8 +133,11 @@ iframe {
 }
 
 .project-h2 {
-	//position: relative; 
-	//margin-top: 0px; 
+
+}
+
+.projects-h3 {
+	font-weight: lighter; 
 }
 
 .projects-h3, .projects-p {
@@ -241,6 +244,14 @@ iframe {
 		text-align: center; 
 		left: 0;
 		right: 0;
+	}
+
+	.projects-h3 {
+		font-size: 2.5rem;
+	}
+
+	.projects-p {
+		font-size: 2rem; 
 	}
 
 	#home {
