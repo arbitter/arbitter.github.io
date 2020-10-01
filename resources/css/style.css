@@ -216,10 +216,6 @@ iframe {
 #skill-boxes {
 	position: relative; 
 	display: inline-block;
-	border-top: 2px solid black; 
-	border-left: 2px solid black; 
-	border-right: 2px solid black; 
-	background-color: #00853e;
 }
 
 #skill-box-header {
@@ -233,9 +229,12 @@ iframe {
 	position: relative; 
 	display: block;
 	border-bottom: 2px solid black; 
+	border-left: 2px solid black;
+	border-right: 2px solid black; 
 	padding: 10px; 
 	color: white;  
 	line-height: 1.5rem; 
+	background-color: #00853e;
 }
 
 @media only screen and (orientation: portrait) , screen and (max-width: 1440px) {
@@ -271,10 +270,14 @@ iframe {
 		position: relative; 
 		float: none; 
 		width: 100%;
+		margin-bottom: 100px; 
 	}
 
 	#skill-boxes {
-		display: inline-block; 
+		display: inline-block;
+		width: 50%;
+		left: 45%;
+		text-align: center;  
 	}
 
 	#skill-box-header {
