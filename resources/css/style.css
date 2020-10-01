@@ -83,7 +83,7 @@ textarea{
 	width: 600px; 
 }
 
-img {
+.me-img {
 	position: relative; 
 	display: inline-block; 
 	float: right; 
@@ -301,9 +301,17 @@ iframe {
 	}
 }
 
+@media only screen and (max-width: 1440px) {
+
+	.projects-media {
+		width: 618px;
+		height: 174px;
+	}
+}
+
 @media only screen and (max-width: 1024px) {
 
-	img {
+	.me-img {
 		height: 275px; 
 		width: 227px; 
 	}
