@@ -119,7 +119,7 @@ img {
 	left: 10%;
 }
 
-#contact-me-overlay, #about-contact-me-overlay {
+#contact-me-overlay{
 	font-size: 1.5rem;
 	padding: 20px 30px;
 	border: 1px solid black; 
@@ -127,38 +127,35 @@ img {
 	cursor: pointer; 
 	background-color: #00853e;
 	z-index: 0;
-	display: fixed; 
+	float: right; 
 }
 
 #learn-more {
 	color: #00853e;
+	position: relative; 
+	display: block; 
+	text-align: left; 
+	left: 5%;
+	width: 7%; 
 	font-weight: bold;
 	cursor: pointer; 
+	text-decoration: none; 
 }
 
-#about-me {
+#home, #projects, #about-me {
 	position: relative; 
 	display: block;
 	text-align: left;
 	top: 50px;
 	left: 5%;
-	width: 90%;
-	z-index: -1;
-}
-
-#home, #projects {
-	position: relative; 
-	//display: block;
-	text-align: left;
-	top: 50px;
-	left: 5%;
 	min-width: 50%;
-	max-width: 70%;
+	max-width: 60%;
 	z-index: -1;
+	margin-bottom: 75px; 
 }
 
-#about-me p {
-	width: 50%;
+#about-me h3 {
+	font-weight: lighter;   
 }
 
 #skill-boxes {
@@ -183,14 +180,10 @@ img {
 	border-bottom: 2px solid black; 
 	padding: 10px; 
 	color: white;  
+	line-height: 1.5rem; 
 }
 
 @media only screen and (orientation: portrait) , screen and (max-width: 1440px) {
-	img {
-		float: none; 
-		height: 275px; 
-		width: 227px; 
-	}
 
 	.title {
 		text-align: center; 
@@ -199,91 +192,42 @@ img {
 
 	}
 
+	#home {
+		float: none; 
+		width: 100%;
+	}
+
 	#home h3{
 		text-align: center; 
 	}
-}
 
-@media only screen and (max-width: 1900px){
-
-	#home{
-		display: block;
-		position: relative;
+	#hom p {
 		text-align: center; 
-		margin-bottom: 20px; 
-		width: 90%;
-	}
-
-	#home h3 {
-		float: none;
-	}
-
-	#home p {
-		text-align: left; 
 	}
 
 	#about-me {
 		position: relative; 
-		text-align: center; 
-		margin-bottom: 20px; 
-		top: 0px;
-	}
-
-	#about-me h3 {
-		float: none;
-	}
-
-	#about-me p {
-		text-align: left; 
+		float: none; 
+		//text-align: center; 
 		width: 100%;
 	}
 
-	#about-me-image {
-	position: static;    
-	width: 455px;
-	height: 550px;
-	bottom: 20px; 
-	right: 4px;
-	padding: 0px 0px;
-	margin: 0px 0px;
-	display: none; 
-	}
-
-	footer {
-		position: static;      
-		display: block; 
-		text-align: center; 
-		float: none; 
-		bottom: 0; 
-		left: 0; 
-	}
-
-	#contact-me-overlay {
-		position: relative; 
-		text-align: center; 
-		display: inline-block; 
-		width: 100%; 
-	}
-
-	#about-contact-me-overlay {
-		position: fixed;  
-		text-align: center; 
-		display: inline-block; 
-		width: 100%; 
+	#learn-more {
+		width: 15%;
 	}
 }
 
-@media only screen and (max-width: 1120px) {
-}
+@media only screen and (max-width: 1072px) {
 
-@media only screen and (max-width: 1072px){
 	.navButton {
 		font-size: 1.5rem; 
 	}
 }
 
-@media only screen and (max-width: 720px){
-	.navButton {
-		font-size: 1rem; 
+@media only screen and (max-width: 1024px) {
+
+	img {
+		height: 275px; 
+		width: 227px; 
 	}
 }

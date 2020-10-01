@@ -4,8 +4,7 @@ let aboutMeButton = document.getElementById("aboutButton");
 let softwareButton = document.getElementById("softwareButton");
 let gameButton = document.getElementById("gameButton");
 
-//Learn more link under name and title. Gets all items with the learn-more class. 
-//Since there should only be one, we know the one we're looking for is the 0th element. 
+//Learn More Link 
 let learnMore = document.getElementById("learn-more");
 
 //contact me link at the bottom right of the page. 
