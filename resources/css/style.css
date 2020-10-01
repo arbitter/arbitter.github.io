@@ -93,6 +93,10 @@ img {
 	z-index: -1;
 }
 
+iframe {
+	width: 80%;
+}
+
 .navButton {
 	background: #00853e;
 	border-bottom: 4px solid black;
@@ -119,7 +123,55 @@ img {
 	left: 10%;
 }
 
-#contact-me-overlay{
+.projects {
+	text-align: center; 
+	position: relative; 
+	left: 5%;
+	width: 90%;
+	z-index: -1; 
+	margin-bottom: 20px; 
+}
+
+.project-h2 {
+	//position: relative; 
+	//margin-top: 0px; 
+}
+
+.projects-h3, .projects-p {
+	text-align: center; 
+	position: relative; 
+	left: 5%;
+	width: 90%;
+	z-index: -1; 
+	margin-bottom: 20px; 
+}
+
+.project-info {
+	position: relative; 
+	text-align: center; 
+	z-index: -1;
+}
+
+.project-info h3 {
+		position: relative; 
+		left: 16.5%;
+		width: 70%;
+		font-weight: lighter; 
+		text-align: left; 
+}
+
+.project-info p {
+		position: relative; 
+		left: 16.5%;
+		width: 70%;
+		text-align: left; 
+}
+
+.project-media {
+	overflow: scroll; 
+}
+
+#contact-me-overlay {
 	font-size: 1.5rem;
 	padding: 20px 30px;
 	border: 1px solid black; 
@@ -142,7 +194,7 @@ img {
 	text-decoration: none; 
 }
 
-#home, #projects, #about-me {
+#home, #about-me {
 	position: relative; 
 	display: block;
 	text-align: left;
@@ -189,7 +241,6 @@ img {
 		text-align: center; 
 		left: 0;
 		right: 0;
-
 	}
 
 	#home {
@@ -209,6 +260,10 @@ img {
 		position: relative; 
 		float: none; 
 		width: 100%;
+	}
+
+	#skill-boxes {
+		display: inline-block; 
 	}
 
 	#skill-box-header {
