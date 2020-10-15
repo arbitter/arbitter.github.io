@@ -11,17 +11,17 @@
 body{
 	//background: linear-gradient(-45deg, #0d2d62, #00853e);
 	background: #F8F8FF;
-	text-align: center; 
+	text-align: center;
 }
 
 header {
-	position: sticky; 
+	position: sticky;
 	top: 0;
 }
 
 footer {
-	position: fixed; 
-	float: right; 
+	position: fixed;
+	float: right;
 	bottom: 0;
 	right: 0;
 }
@@ -45,7 +45,7 @@ p {
 email {
 	color: #00853e;
 	font-weight: bold;
-	cursor: pointer; 
+	cursor: pointer;
 }
 
 form {
@@ -61,32 +61,32 @@ label {
 
 input[type=text] {
 	width: 90%;
-	padding: 5px 5px; 
+	padding: 5px 5px;
 	border-radius: 4px;
 	margin: 10px 10px;
 	display: block;
 }
 
 input[type=submit] {
-	color: white; 
+	color: white;
 	background-color: #00853e;
-	padding: 5px 5px; 
+	padding: 5px 5px;
 	margin: 5px 10px;
 	border-radius: 4px;
 	border: 1px solid black;
 }
 
 textarea{
-	padding: 5px 5px; 
+	padding: 5px 5px;
 	margin: 10px 10px;
 	height: 300px;
-	width: 600px; 
+	width: 600px;
 }
 
 .me-img {
-	position: relative; 
-	display: inline-block; 
-	float: right; 
+	position: relative;
+	display: inline-block;
+	float: right;
 	margin :20px;
 	width: 455px;
 	height: 550px;
@@ -101,35 +101,35 @@ iframe {
 	background: #00853e;
 	border-bottom: 4px solid black;
 	border-right: 1px solid black;
-	padding: 10px 20px; 
-	float: left; 
+	padding: 10px 20px;
+	float: left;
 	width: 25%;
-	font-size: 2rem; 
-	color: white; 
-	display: block;    
-	cursor: pointer; 
-	z-index: 999; 
+	font-size: 2rem;
+	color: white;
+	display: block;
+	cursor: pointer;
+	z-index: 999;
 }
 
 .navButton:hover{
-	font-weight: bold; 
+	font-weight: bold;
 }
 
 .contact {
-	float: left; 
-	text-align: left; 
+	float: left;
+	text-align: left;
 	position: relative;
-	top: 50px; 
+	top: 50px;
 	left: 10%;
 }
 
 .projects {
-	text-align: center; 
-	position: relative; 
+	text-align: center;
+	position: relative;
 	left: 5%;
 	width: 90%;
-	z-index: -1; 
-	margin-bottom: 20px; 
+	z-index: -1;
+	margin-bottom: 20px;
 }
 
 .project-h2 {
@@ -137,68 +137,68 @@ iframe {
 }
 
 .projects-h3 {
-	font-weight: lighter; 
+	font-weight: lighter;
 }
 
 .projects-h3, .projects-p {
-	text-align: center; 
-	position: relative; 
+	text-align: center;
+	position: relative;
 	left: 5%;
 	width: 90%;
-	z-index: -1; 
-	margin-bottom: 20px; 
+	z-index: -1;
+	margin-bottom: 20px;
 }
 
 .project-info {
-	position: relative; 
-	text-align: center; 
+	position: relative;
+	text-align: center;
 	z-index: -1;
 }
 
 .project-info h3 {
-		position: relative; 
+		position: relative;
 		left: 16.5%;
 		width: 70%;
-		font-weight: lighter; 
-		text-align: left; 
+		font-weight: lighter;
+		text-align: left;
 }
 
 .project-info p {
-		position: relative; 
+		position: relative;
 		left: 16.5%;
 		width: 70%;
-		text-align: left; 
+		text-align: left;
 }
 
 .project-media {
-	overflow: scroll; 
+	overflow: scroll;
 }
 
 #contact-me-overlay {
 	font-size: 1.5rem;
 	padding: 20px 30px;
-	border: 1px solid black; 
-	color: white; 
-	cursor: pointer; 
+	border: 1px solid black;
+	color: white;
+	cursor: pointer;
 	background-color: #00853e;
 	z-index: 0;
-	float: right; 
+	float: right;
 }
 
 #learn-more {
 	color: #00853e;
-	position: relative; 
-	display: block; 
-	text-align: left; 
+	position: relative;
+	display: block;
+	text-align: left;
 	left: 5%;
-	width: 7%; 
+	width: 7%;
 	font-weight: bold;
-	cursor: pointer; 
-	text-decoration: none; 
+	cursor: pointer;
+	text-decoration: none;
 }
 
 #home, #about-me {
-	position: relative; 
+	position: relative;
 	display: block;
 	text-align: left;
 	top: 50px;
@@ -206,41 +206,68 @@ iframe {
 	min-width: 50%;
 	max-width: 60%;
 	z-index: -1;
-	margin-bottom: 75px; 
+	margin-bottom: 75px;
 }
 
 #about-me h3 {
-	font-weight: lighter;   
+	font-weight: lighter;
 }
 
 #skill-boxes {
-	position: relative; 
-	display: inline-block;
+	position: relative;
+	display: inline;
+	width: 100%;
+	background-color: #00853e;
+	padding: 10px;
 }
 
 #skill-box-header {
-	position: relative; 
-	display: block;
-	color: white;  
+	position: relative;
+	display:block;
+	color: white;
 	font-size: 1.5rem;
 }
 
 #skill-box {
-	position: relative; 
-	display: block;
-	border-bottom: 2px solid black; 
-	border-left: 2px solid black;
-	border-right: 2px solid black; 
-	padding: 10px; 
-	color: white;  
-	line-height: 1.5rem; 
+	position: relative;
+	display: inline;
+	width: 10%;
+	//border-bottom: 2px solid black;
+	//border-left: 2px solid black;
+	//border-right: 2px solid black;
+	color: white;
+	line-height: 1.5rem;
+	//background-color: #00853e;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	justify-content: center;
+}
+
+.grid-item {
+	color: white;
+	font-size: 1.25rem;
+	padding: 10px;
+	border: 1px solid black;
 	background-color: #00853e;
+	text-align: center;
+}
+
+.grid-item h4 {
+	font-size: 1.75rem;
+	font-weight: 500;
+	color: white;
+	text-decoration: underline;
+	text-align: center;
 }
 
 @media only screen and (orientation: portrait) , screen and (max-width: 1440px) {
 
 	.title {
-		text-align: center; 
+		text-align: center;
 		left: 0;
 		right: 0;
 	}
@@ -250,43 +277,43 @@ iframe {
 	}
 
 	.projects-p {
-		font-size: 2rem; 
+		font-size: 2rem;
 	}
 
 	#home {
-		float: none; 
+		float: none;
 		width: 100%;
 	}
 
 	#home h3{
-		text-align: center; 
+		text-align: center;
 	}
 
 	#hom p {
-		text-align: center; 
+		text-align: center;
 	}
 
 	#about-me {
-		position: relative; 
-		float: none; 
+		position: relative;
+		float: none;
 		width: 100%;
-		margin-bottom: 100px; 
+		margin-bottom: 100px;
 	}
 
 	#skill-boxes {
 		display: inline-block;
 		width: 50%;
 		left: 45%;
-		text-align: center;  
+		text-align: center;
 	}
 
 	#skill-box-header {
-		font-size: 1.5rem; 
+		font-size: 1.5rem;
 	}
 
 	#skill-box {
-		font-size: 1.25rem; 
-		line-height: 2.0rem; 
+		font-size: 1.25rem;
+		line-height: 2.0rem;
 	}
 
 	#learn-more {
@@ -297,7 +324,7 @@ iframe {
 @media only screen and (max-width: 1072px) {
 
 	.navButton {
-		font-size: 1.5rem; 
+		font-size: 1.5rem;
 	}
 }
 
@@ -312,7 +339,7 @@ iframe {
 @media only screen and (max-width: 1024px) {
 
 	.me-img {
-		height: 275px; 
-		width: 227px; 
+		height: 275px;
+		width: 227px;
 	}
 }
