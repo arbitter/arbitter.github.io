@@ -271,12 +271,6 @@ iframe {
 	display: inline-block;
 }
 
-@media only screen and (max-width: 1919px) {
-	.grid-container {
-		grid-template-columns: auto auto;
-	}
-}
-
 @media only screen and (orientation: portrait) , screen and (max-width: 1440px) {
 
 	.title {
@@ -291,6 +285,10 @@ iframe {
 
 	.projects-p {
 		font-size: 2rem;
+	}
+
+	.grid-container {
+		grid-template-columns: 250px 250px;
 	}
 
 	#home {
