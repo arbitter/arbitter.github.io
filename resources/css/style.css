@@ -242,7 +242,7 @@ iframe {
 
 .grid-container {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: 300px 300px 300px;
 	padding: 10px;
 	justify-content: center;
 }
@@ -262,6 +262,22 @@ iframe {
 	color: white;
 	text-decoration: underline;
 	text-align: center;
+}
+
+.grid-item dl dt {
+	color: white;
+	font-size: 1.25rem;
+	padding: 5px;
+	display: inline-block;
+}
+
+@media only screen and (max-width: 1920px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		padding: 10px;
+		justify-content: center;
+	}
 }
 
 @media only screen and (orientation: portrait) , screen and (max-width: 1440px) {
