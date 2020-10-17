@@ -90,7 +90,7 @@ textarea{
 	width: 455px;
 	height: 550px;
 	z-index: -1;
-	bottom: 37px; 
+	bottom: 37px;
 }
 
 iframe {
@@ -173,8 +173,8 @@ iframe {
 
 .grid-container {
 	display: grid;
-	grid-template-columns: 250px 250px 250px;
-	grid-template-rows: 250px 250px 250px;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-template-rows: 250px 250px 250px 250px;
 	padding: 10px;
 	justify-content: center;
 	pointer-events: all;
@@ -253,7 +253,14 @@ iframe {
 	font-weight: lighter;
 }
 
-@media only screen and (orientation: portrait) , screen and (max-width: 1440px) {
+@media only screen and (max-width: 1540px) {
+	.grid-container {
+		grid-template-columns: 200px 200px;
+		grid-template-rows: 200px 200px 200px 200px;
+	}
+}
+
+@media only screen and (orientation: portrait) , screen and (min-width: 1024px) and (max-width: 1440px) {
 
 	.title {
 		text-align: center;
@@ -267,11 +274,6 @@ iframe {
 
 	.projects-p {
 		font-size: 2rem;
-	}
-
-	.grid-container {
-		grid-template-columns: 250px 250px;
-		grid-template-rows: 250px 250px 250px 250px;
 	}
 
 	#home {
