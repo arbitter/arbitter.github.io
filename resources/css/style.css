@@ -174,7 +174,7 @@ iframe {
 .grid-container {
 	display: grid;
 	grid-template-columns: 250px 250px 250px 250px;
-	grid-template-rows: 250px 250px 250px 250px;
+	grid-template-rows: 250px 250px;
 	padding: 10px;
 	justify-content: center;
 	pointer-events: all;
@@ -244,10 +244,8 @@ iframe {
 	top: 50px;
 	min-width: 50%;
 	max-width: 60%;
-	margin-bottom: 75px;
 	margin-left: 5%;
 }
-
 
 #about-me h3 {
 	font-weight: lighter;
