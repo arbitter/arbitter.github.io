@@ -1,5 +1,7 @@
 /*
-References to each grid item by ID.
+Grid-Item References by ID
+-----------------------------
+The reference for each Grid-Item by their ID
 */
 let frontEnd = document.getElementById("front-end");
 let backEnd = document.getElementById("back-end");
@@ -12,7 +14,9 @@ let methods = document.getElementById("methods");
 /// end references
 
 /*
-Mouse over events for each grid item.
+Grid-Item Mouse Over Events
+---------------------------
+Adding mouse over events for each Grid-Item
 */
 frontEnd.addEventListener("mouseover", feMouseOver);
 backEnd.addEventListener("mouseover", beMouseOver);
@@ -25,7 +29,9 @@ methods.addEventListener("mouseover", methodsMouseOver);
 /// end mouse over events
 
 /*
-Mouse out events for each grid item.
+Grid-Item Mouse Out Events
+---------------------------
+Adding mouse out events for each Grid-Item
 */
 frontEnd.addEventListener("mouseout", feMouseOut);
 backEnd.addEventListener("mouseout", beMouseOut);
@@ -38,7 +44,9 @@ methods.addEventListener("mouseout", methodsMouseOut);
 /// end mouse out events
 
 /*
-Mouse Over Functions for each grid item.
+Grid-Item Mouse Over Functions
+------------------------------
+The functions used for each Grid-Items' mouse over event
 */
 function feMouseOver() {
   frontEnd.innerHTML = "<dl><dt><h4>JavaScript</h4></dt><dt><h4>HTML</h4></dt><dt><h4>CSS</h4></dt><dt><h4>React</h4></dt><dt><h4>Angular</h4></dt></dl>";
@@ -76,7 +84,9 @@ function methodsMouseOver() {
 /// End Mouse Over Functions
 
 /*
-Mouse Out Functions for each grid item.
+Grid-Item Mouse Out Functions
+------------------------------
+The functions used for each Grid-Items' mouse out event
 */
 function feMouseOut() {
   frontEnd.innerHTML = "<h3>Front End</h3>";
